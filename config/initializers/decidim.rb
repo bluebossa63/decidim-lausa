@@ -175,6 +175,29 @@ Decidim.configure do |config|
   # If not set, it will be ignored.
   # config.base_uploads_path = nil
 
+  # Allow organizations admins to track newsletter links.
+  # config.track_newsletter_links = true
+
+  # Amount of time that the data portability files will be available in the server.
+  # config.data_portability_expiry_time = 7.days
+
+  # Max requests in a time period to prevent DoS attacks. Only applied on production.
+  # config.throttling_max_requests = 100
+
+  # Time window in which the throttling is applied.
+  # config.throttling_period = 1.minute
+
+  # Time window were users can access the website even if their email is not confirmed.
+  # config.unconfirmed_access_for = 2.days
+
+  # A base path for the uploads. If set, make sure it ends in a slash.
+  # Uploads will be set to `<base_path>/uploads/`. This can be useful if you
+  # want to use the same uploads place for both staging and production
+  # environments, but in different folders.
+  #
+  # If not set, it will be ignored.
+  # config.base_uploads_path = nil
+
   # SMS gateway configuration
   #
   # If you want to verify your users by sending a verification code via
