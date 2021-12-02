@@ -4,16 +4,17 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", git: "https://github.com/decidim/decidim.git", branch: "release/0.23-stable"
+gem "decidim", git: "https://github.com/decidim/decidim.git", branch: "release/0.24-stable"
 # gem "decidim", path: "../decidim"
 # gem "decidim-map", path: "../decidim-map"
 
-gem "decidim-conferences", git: "https://github.com/decidim/decidim.git", branch: "release/0.23-stable"
+gem "decidim-conferences", git: "https://github.com/decidim/decidim.git", branch: "release/0.24-stable"
 
-gem "decidim-decidim_awesome", "~> 0.6.0"
-#gem "decidim-navbar_links", git: "https://github.com/OpenSourcePolitics/decidim-module-navbar_links.git", branch: "0.23-stable"
-gem "decidim-socio_demographic_authorization_handler", git: "https://github.com/OpenSourcePolitics/decidim-module-socio_demographic_authorization_handler.git", branch: "alt/decidim-lausa"
-gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer.git", branch: "0.23-stable"
+#gem "decidim-decidim_awesome", "~> 0.6.0"
+#gem "decidim-navbar_links", git: "https://github.com/OpenSourcePolitics/decidim-module-navbar_links.git", branch: "0.24-stable"
+#gem "decidim-socio_demographic_authorization_handler", git: "https://github.com/OpenSourcePolitics/decidim-module-socio_demographic_authorization_handler.git", branch: "alt/decidim-lausa"
+#gem "decidim-term_customizer", git: "https://github.com/mainio/decidim-module-term_customizer.git", branch: "0.24-stable"
+gem "decidim-spam_detection", git: "https://github.com/OpenSourcePolitics/decidim-spam_detection.git", branch: "release/0.24-stable"
 
 # gem "decidim-consultations", git: "https://github.com/decidim/decidim.git", branch: "0.21-stable"
 # gem "decidim-initiatives", git: "https://github.com/decidim/decidim.git", branch: "0.21-stable"
@@ -31,7 +32,7 @@ gem "bootsnap", "~> 1.4"
 
 gem "dotenv-rails"
 
-gem "puma", "~> 4.3.7"
+gem "puma", "~> 5.0"
 gem "uglifier", "~> 4.1"
 
 gem "faker", "~> 1.9"
@@ -46,7 +47,7 @@ gem "sprockets", "~> 3.7"
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
-  gem "decidim-dev", git: "https://github.com/decidim/decidim.git", branch: "release/0.23-stable"
+  gem "decidim-dev", git: "https://github.com/decidim/decidim.git", branch: "release/0.24-stable"
   # gem "decidim-dev", path: "../decidim"
 end
 
