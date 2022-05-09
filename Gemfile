@@ -4,6 +4,8 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
+gem 'rake'
+
 gem "decidim", git: "https://github.com/decidim/decidim.git", branch: "release/0.23-stable"
 # gem "decidim", path: "../decidim"
 # gem "decidim-map", path: "../decidim-map"
